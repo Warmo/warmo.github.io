@@ -10,7 +10,7 @@ plugins:
     - search
     - tags
     - mkdocs-nav-weight
-        index_weight: -10
+        index_weight -10
 
 markdown_extensions:
     - pymdownx.keys
