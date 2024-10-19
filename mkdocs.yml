@@ -1,0 +1,15 @@
+site_name: MkDocs
+theme:
+    name: material
+    features:
+    language: en
+    palette:
+extra:
+    social:
+
+markdown_extensions:
+    - pymdownx.keys
+    - pymdownx.smartsymbols
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
