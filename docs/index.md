@@ -1,3 +1,8 @@
+---
+title: Home
+summary: Homepage
+date: 19-10-2024
+---
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

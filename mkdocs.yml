@@ -1,10 +1,14 @@
-site_name: MkDocs
+site_name: Warmo's Stuff
 theme:
     name: material
     language: en
     palette:
         scheme: slate
         primary: red
+    features:
+        navigation.instant
+        navigation.instant.progress
+        navigation.tracking
 plugins:
     - blog:
         categories: false
