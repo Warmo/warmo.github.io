@@ -4,12 +4,19 @@ theme:
     features:
     language: en
     palette:
-extra:
-    social:
+
+plugins:
+    - blog
+    - search
+    - tags
+    - mkdocs-nav-weight
+        index_weight: -10
 
 markdown_extensions:
     - pymdownx.keys
     - pymdownx.smartsymbols
+    - attr_list
+    - md_in_html
 
 copyright: |
   &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
