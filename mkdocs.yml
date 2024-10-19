@@ -9,8 +9,8 @@ plugins:
     - blog
     - search
     - tags
-    - mkdocs-nav-weight
-        index_weight -10
+    - mkdocs-nav-weight:
+        index_weight: -10
 
 markdown_extensions:
     - pymdownx.keys
