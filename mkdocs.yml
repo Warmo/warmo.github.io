@@ -1,20 +1,18 @@
 site_name: MkDocs
 theme:
     name: material
-    features:
     language: en
     palette:
-
+        scheme: slate
+        primary: red
 plugins:
-    - blog
+    - blog:
+        categories: false
     - search
-    - tags
-
 markdown_extensions:
     - pymdownx.keys
     - pymdownx.smartsymbols
     - attr_list
     - md_in_html
-
 copyright: |
   &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
