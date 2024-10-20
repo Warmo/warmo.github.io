@@ -13,6 +13,10 @@ plugins:
     - blog:
         categories: false
     - search
+    - git-latest-changes
+    - git-revision-date-localized
+    - open-in-new-tab
+    - awesome-pages
 markdown_extensions:
     - pymdownx.keys
     - pymdownx.smartsymbols
