@@ -16,7 +16,6 @@ theme:
         toc.integrate
     logo: maze-white.svg
     favicon: maze-white.svg
-#    custom_dir: docs\overrides
 plugins:
     - awesome-pages
     - blog:
