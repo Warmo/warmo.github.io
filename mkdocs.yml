@@ -23,6 +23,8 @@ plugins:
     - search
     - git-revision-date-localized
     - open-in-new-tab
+    - git-latest-changes:
+        history_limit: 5
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
@@ -32,6 +34,6 @@ markdown_extensions:
     - pymdownx.emoji:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 copyright: |
   &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
+repo_url: https://github.com/MrWarmo/mrwarmo.github.io
