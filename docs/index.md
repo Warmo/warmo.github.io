@@ -10,4 +10,3 @@ hide:
 <br><br><br>
 ### Latest updates
 {{ latest_changes }}
-Made this blog!

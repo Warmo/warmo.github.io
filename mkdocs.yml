@@ -19,9 +19,14 @@ theme:
 plugins:
     - awesome-pages
     - blog:
-        categories: false
+        categories: true
+        blog_dir: Projects
+        archive: false
     - search
-    - git-revision-date-localized
+    - git-revision-date-localized:
+        exclude:
+            - index.md
+            - Projects/*
     - open-in-new-tab
     - git-latest-changes:
         history_limit: 5
