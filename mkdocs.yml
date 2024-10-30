@@ -19,7 +19,13 @@ theme:
 plugins:
     - awesome-pages
     - blog:
+        categories: true
+        blog_dir: Projects
+        archive: false
+    - blog:
         categories: false
+        blog_dir: blog
+        archive: false
     - search
     - git-revision-date-localized
     - open-in-new-tab
