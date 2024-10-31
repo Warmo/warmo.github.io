@@ -1,1 +1,4 @@
-# My projects
+---
+title: Project Index
+---
+#Project Index
