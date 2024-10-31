@@ -22,7 +22,6 @@ plugins:
         categories: true
         blog_dir: Projects
         archive: false
-
     - search
     - git-revision-date-localized:
         exclude:
