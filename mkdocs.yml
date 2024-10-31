@@ -25,13 +25,13 @@ plugins:
     - search
     - git-revision-date-localized:
         exclude:
-            - index.md
             - Projects/*
     - open-in-new-tab
     - git-latest-changes:
         history_limit: 5
         repo_vendor: github
-        limit_to_docs_dir: true
+        limit_to_docs_dir: True
+        enabled_on_serve: True
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
