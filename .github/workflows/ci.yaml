@@ -21,6 +21,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip3 install git+https://github.com/tombreit/mkdocs-git-latest-changes-plugin.git@319c36c4ad28cc0f734e377f9397a46d4c13e305
+# Need to use this specific version or history_limit setting doesnt work for some reason
       - run: pip3 install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-open-in-new-tab
       - run: pip install mkdocs-awesome-pages-plugin
