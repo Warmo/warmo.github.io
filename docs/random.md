@@ -1,9 +1,7 @@
 ---
 title: Random
 summary: Stuff I've found
-date: 
-    created: 2024-01-11
-    updated:
+date: 2024-01-11
 ---
 # Random
 
