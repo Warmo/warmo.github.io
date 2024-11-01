@@ -25,14 +25,14 @@ plugins:
     - search
     - git-revision-date-localized:
         exclude:
-            - Projects/*
+            - projects/*
     - open-in-new-tab
-    - git-latest-changes:
-        history_limit: 5
+#    - git-latest-changes:
+#        history_limit: 5
 #        repo_vendor: github
 # If unset, it will use the gh_pages branch and spam the list
-        limit_to_docs_dir: true
-        enabled_on_serve: true
+#        limit_to_docs_dir: true
+#        enabled_on_serve: true
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
