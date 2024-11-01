@@ -6,8 +6,9 @@ hide:
   - toc
 ---
 # Warmo's Stuff
+
 ## The home for all my stuff i've done on the interwebs! :grinning:
-<br><br><br>
+
+<br>
 ### Latest updates
 {{ latest_changes }}
-Made this blog!
