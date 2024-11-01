@@ -20,7 +20,7 @@ plugins:
     - awesome-pages
     - blog:
         categories: true
-        blog_dir: Projects
+        blog_dir: projects
         archive: false
     - search
     - git-revision-date-localized:
