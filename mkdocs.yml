@@ -14,8 +14,8 @@ theme:
         navigation.tabs
         navigation.tabs.sticky
         toc.integrate
-    logo: maze-white.svg
-    favicon: maze-white.svg
+    logo: images/icons/maze-cornea.png
+    favicon: images/icons/maze-cornea.png
 plugins:
     - awesome-pages
     - blog:
@@ -27,6 +27,7 @@ plugins:
         history_limit: 5
         repo_vendor: github
         limit_to_docs_dir: true
+        enabled_on_serve: false
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
@@ -39,5 +40,5 @@ markdown_extensions:
 copyright: |
   &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
 repo_url: https://github.com/MrWarmo/mrwarmo.github.io
-extra_css:
-    - stylesheets/extra.css
+#extra_css:
+#    - stylesheets/extra.css
