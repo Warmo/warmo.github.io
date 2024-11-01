@@ -15,7 +15,7 @@ theme:
         navigation.tabs.sticky
         toc.integrate
     logo: images/icons/maze-cornea.png
-    favicon: images/icons/maze-cornea.png
+    favicon: images/icons/maze-cornea-t.png
 plugins:
     - awesome-pages
     - blog:
