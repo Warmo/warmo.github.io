@@ -14,7 +14,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :material-gamepad-variant-outline: [__Nintendo/Gaming__](/projects/category/nintendo/) <br> for content and structure
+- :material-gamepad-variant-outline: [__Nintendo/Gaming__](work/category/nintendo) <br> for content and structure
 - :fontawesome-solid-globe: [__Web stuff__](/projects/category/web/) <br>
 for content and structure
 - :fontawesome-solid-binoculars: [__Random__](/random)<br>

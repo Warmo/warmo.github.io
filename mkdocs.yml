@@ -20,12 +20,12 @@ plugins:
     - awesome-pages
     - blog:
         categories: true
-        blog_dir: projects
+        blog_dir: work
         archive: false
+        authors: false
+        post_readtime: false
     - search
-    - git-revision-date-localized:
-        exclude:
-            - projects/*
+    - git-revision-date-localized
     - open-in-new-tab
 #    - git-latest-changes:
 #        history_limit: 5
