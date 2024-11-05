@@ -1,4 +1,5 @@
 site_name: Warmo's Stuff
+site_url: http://warmolabs.tf
 theme:
     name: material
     language: en
@@ -9,6 +10,7 @@ theme:
     features:
         navigation.instant
         navigation.instant.progress
+        navigation.instant.prefetch
         navigation.tracking
         navigation.sections
         navigation.tabs
