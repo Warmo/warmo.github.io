@@ -45,5 +45,5 @@ markdown_extensions:
 copyright: |
   &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
 repo_url: https://github.com/MrWarmo/mrwarmo.github.io
-#extra_css:
-#    - stylesheets/extra.css
+extra_css:
+    - stylesheets/extra.css
