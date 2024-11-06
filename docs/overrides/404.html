@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+<!-- Content -->
+{% block content %}
+<h1> Page not found <br> Here's a random video instead!</h1>
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+        "autoplay": "on",
+
+    };
+</script>
+<div class="flasher" align="center"><embed src="\404\gnomeparty.swf"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+{% endblock %}

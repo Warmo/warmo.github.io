@@ -2,6 +2,7 @@ site_name: Warmo's Stuff
 site_url: http://warmolabs.tf
 theme:
     name: material
+    custom_dir: docs/overrides
     language: en
     palette:
         scheme: slate
@@ -27,7 +28,7 @@ plugins:
         authors: false
         post_readtime: false
     - search
-    - git-revision-date-localized
+#    - git-revision-date-localized
     - open-in-new-tab
 #    - git-latest-changes:
 #        history_limit: 5
