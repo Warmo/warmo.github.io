@@ -1,8 +1,12 @@
 name: ci 
+
+
 on:
   push:
     branches:
       - master 
+
+
       - main
 permissions:
   contents: write
@@ -10,15 +14,24 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - uses: actions/cache@v2
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+
+
+      - uses: actions/cache@v4
         with:
-          key: ${{ github.ref }}
+          key: mkdocs-material-${{ env.cache_id }}
           path: .cache
-      - run: pip install mkdocs-material
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material 
       - run: pip install pillow cairosvg
 #      - run: pip3 install git+https://github.com/tombreit/mkdocs-git-latest-changes-plugin.git@319c36c4ad28cc0f734e377f9397a46d4c13e305
 # Need to use this specific version or history_limit setting doesnt work for some reason
@@ -27,5 +40,3 @@ jobs:
       - run: pip install mkdocs-awesome-pages-plugin
 #      - run: pip install mkdocs-nav-weight
       - run: mkdocs gh-deploy --force
-
-# When adding plugins, add the pip command above mkdocs deploy
