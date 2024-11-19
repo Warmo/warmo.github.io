@@ -39,7 +39,9 @@ plugins:
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
-    - attr_list
+    - def_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
     - md_in_html
     - tables
     - pymdownx.emoji:
@@ -50,3 +52,7 @@ copyright: |
 repo_url: https://github.com/MrWarmo/mrwarmo.github.io
 extra_css:
     - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/warmo.bsky.social
