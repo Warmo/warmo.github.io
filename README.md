@@ -1,3 +1,5 @@
-# mkdocs-test
+# Blog/Website
 
-https://mrwarmo.github.io/home/
+## Creatred using MKDocs + Material Theme
+
+https://mrwarmo.github.io/
