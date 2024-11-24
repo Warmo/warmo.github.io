@@ -1,5 +1,5 @@
 # Blog/Website
 
-## Creatred using MKDocs + Material Theme
+Created using MKDocs + Material Theme
 
 https://mrwarmo.github.io/
