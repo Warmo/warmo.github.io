@@ -40,6 +40,7 @@ markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
     - def_list
+    - attr_list
     - pymdownx.tasklist:
         custom_checkbox: true
     - md_in_html

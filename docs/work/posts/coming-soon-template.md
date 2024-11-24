@@ -1,11 +1,12 @@
 ---
 date: 
-    created: 2024-11-05
-    updated: 2024-11-19
+    created: 2024-11-19
+    updated: 2024-11-24
 title: Coming Soon Template
 categories:
     - Web
 ---
+
 I tasked myself with making a quick coming soon message, incase a new domain is bought and nothing is connected up to it (wordpress etc)
 <br>
 I made it nice and simple, only using 3 files:
@@ -14,6 +15,7 @@ I made it nice and simple, only using 3 files:
 - style.css
 - Font: [Oxanium, via Google Fonts](https://fonts.google.com/specimen/Oxanium)
 
+![Preview](/images/comingsoon.png){ align=right }
 I've never made a "responsive" site so I used this as a test so it can work on any device and keeping the text aligned centered and in the centre of the screen. To increase speed, I also saved the font file to the same place, instead of it dowloading from google's system (This also fixed a issue of the text changing during load)
 <br>
 <br>
