@@ -1,6 +1,9 @@
 ---
 title: About
 summary: About me and this site
+hide:
+  - navigation
+  - toc
 ---
 # About
 

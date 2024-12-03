@@ -10,13 +10,12 @@ theme:
         accent: orange
     features:
         navigation.instant
-        navigation.instant.progress
-        navigation.instant.prefetch
         navigation.tracking
         navigation.sections
         navigation.tabs
         navigation.tabs.sticky
         toc.integrate
+        search.highlight
     logo: images/icons/maze-cornea.png
     favicon: images/icons/maze-cornea-t.png
 plugins:
@@ -53,7 +52,7 @@ copyright: |
 repo_url: https://github.com/MrWarmo/mrwarmo.github.io
 extra_css:
     - stylesheets/extra.css
-extra:
-  social:
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/warmo.bsky.social
+#extra:
+#  social:
+#    - icon: fontawesome/brands/bluesky
+#      link: https://bsky.app/profile/warmo.bsky.social
