@@ -1,6 +1,9 @@
 ---
 title: Random
 summary: Stuff I've found
+hide:
+  - navigation
+  - toc
 ---
 # Random
 

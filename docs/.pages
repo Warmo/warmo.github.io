@@ -1,5 +1,7 @@
 nav:
-    - index.md
-    - work
+    - Home: index.md
+    - Projects:
+        /work/
     - random.md
     - about.md
+
