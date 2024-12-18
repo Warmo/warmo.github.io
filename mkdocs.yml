@@ -38,6 +38,7 @@ plugins:
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
+    - pymdownx.blocks.caption
     - def_list
     - attr_list
     - pymdownx.tasklist:
