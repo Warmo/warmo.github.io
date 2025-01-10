@@ -18,6 +18,8 @@ theme:
         search.highlight
     logo: images/icons/maze-cornea.png
     favicon: images/icons/maze-cornea-t.png
+    font:
+        text: Pixelify Sans
 plugins:
     - awesome-pages
     - blog:
@@ -27,14 +29,7 @@ plugins:
         authors: false
         post_readtime: false
     - search
-#    - git-revision-date-localized
     - open-in-new-tab
-#    - git-latest-changes:
-#        history_limit: 5
-#        repo_vendor: github
-# If unset, it will use the gh_pages branch and spam the list
-#        limit_to_docs_dir: true
-#        enabled_on_serve: true
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
