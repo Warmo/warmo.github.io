@@ -30,11 +30,7 @@ plugins:
         post_readtime: false
     - search
     - open-in-new-tab
-    - git-latest-changes:
-        history_limit: 5
-        repo_vendor: github
-        limit_to_docs_dir: true
-        enabled_on_serve: false
+    - git-latest-changes
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
