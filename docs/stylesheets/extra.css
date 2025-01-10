@@ -4,3 +4,11 @@
     margin-right: auto;
     width: 70%;
   }
+
+  .md-typeset h1{
+    margin: 0px 0px 20px 0px;
+  }
+
+  .md-main__inner {
+    margin-top: 5px;
+  }

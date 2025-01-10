@@ -6,7 +6,7 @@ theme:
     language: en
     palette:
         scheme: slate
-        primary: green
+        primary: indigo
         accent: orange
     features:
         navigation.instant
@@ -30,7 +30,6 @@ plugins:
         post_readtime: false
     - search
     - open-in-new-tab
-    - git-latest-changes
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
