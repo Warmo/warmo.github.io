@@ -34,7 +34,7 @@ plugins:
         history_limit: 5
         repo_vendor: github
         limit_to_docs_dir: true
-        enabled_on_serve: true
+        enabled_on_serve: false
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
