@@ -9,6 +9,23 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .md-main__inner {
+.md-main__inner {
     margin-top: 5px;
+  }
+
+.md-ellipsis::after {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background: #ffffff;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+  }
+
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
   }
