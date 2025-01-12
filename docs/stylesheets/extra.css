@@ -29,3 +29,7 @@
       opacity: 0;
     }
   }
+
+  .md-typeset img[align=left] {
+    margin:1em 0em 0.1em 0em;
+  }

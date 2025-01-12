@@ -6,9 +6,11 @@ hide:
   - toc
 ---
 
+![Mii](/images/mii.png){ align=left width="15%" }
+
 # Warmo's Stuff
 
- The home for all my stuff i've done on the interwebs!  :fontawesome-regular-face-grin-beam:
+The home for all my stuff i've done on the interwebs!  :fontawesome-regular-face-grin-beam:
 
 ## Quick Links:
 
