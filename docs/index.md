@@ -6,7 +6,7 @@ hide:
   - toc
 ---
 
-![Mii](/images/mii.png){ align=left width="15%" }
+![Mii](/images/mii.png){ align=left width="13%" }
 
 # Warmo's Stuff
 
