@@ -7,9 +7,10 @@ hide:
 ---
 # About
 
-<img src="/images/hello.webp"
-    alt="Hello There!"
-    class="center">
+<figure markdown="span">
+  ![](/images/hello.webp){ width="95%" }
+  <figcaption></figcaption>
+</figure>
 
 ## Site info
 
