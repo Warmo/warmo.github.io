@@ -33,6 +33,13 @@ plugins:
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
     - pymdownx.blocks.caption
     - def_list
     - attr_list
@@ -44,7 +51,7 @@ markdown_extensions:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 copyright: |
-  &copy; 2024 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
+  &copy; 2025 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
 repo_url: https://github.com/MrWarmo/mrwarmo.github.io
 extra_css:
     - stylesheets/extra.css

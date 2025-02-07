@@ -1,7 +1,7 @@
 ---
 date: 
     created: 2024-11-19
-    updated: 2024-12-18
+    updated: 2025-02-07
 title: Coming Soon Template
 categories:
     - Web
@@ -19,10 +19,10 @@ I've never made a "responsive" site so I used this as a test so it can work on a
 
 ![Preview](/images/comingsoon.png){ width="90%" }
 /// caption
-[Example Here](https://warmolabs.tf/responsive-site-template/)
+[Example Here](https://warmolabs.tf/coming-soon-template/)
 ///
 <br>
-[Github Repo Link](https://github.com/MrWarmo/responsive-site-template) Including template download
+[Github Repo Link](https://github.com/MrWarmo/coming-soon-template) Including template download
 <br>
 <br>
 *To do...*
