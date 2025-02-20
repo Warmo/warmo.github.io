@@ -21,6 +21,6 @@ My Projects<br>
 Tinkering with random stuff
 - :fontawesome-solid-binoculars: [__Random__](random.md)<br>
 List of stuff i've found useful online, hopefully it can help others! :material-robot-happy-outline:
-- :octicons-feed-person-16: [__About__](about.mkd)<br>
+- :octicons-feed-person-16: [__About__](about.md)<br>
 About me!
 </div>
