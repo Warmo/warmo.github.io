@@ -1,5 +1,6 @@
 site_name: Warmo's Stuff
 site_url: http://warmolabs.tf
+site_description: All of my random projects!
 theme:
     name: material
     custom_dir: docs/overrides
@@ -21,6 +22,9 @@ theme:
     font:
         text: Pixelify Sans
 plugins:
+    - social:
+        cards_layout_options:
+            font_family: Pixelify Sans
     - awesome-pages
     - blog:
         categories: true
@@ -51,7 +55,7 @@ markdown_extensions:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 copyright: |
-  &copy; 2025 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
+    &copy; 2025 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
 repo_url: https://github.com/MrWarmo/mrwarmo.github.io
 extra_css:
     - stylesheets/extra.css

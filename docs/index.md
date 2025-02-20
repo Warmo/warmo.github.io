@@ -6,7 +6,7 @@ hide:
   - toc
 ---
 
-![Mii](/images/mii.png){ align=left width="40" }
+![Mii](images/mii.png){ align=left width="40" }
 
 # Warmo's Stuff
 
@@ -16,10 +16,11 @@ The home for all my stuff i've done on the interwebs!  :fontawesome-regular-face
 
 <div class="grid cards" markdown>
 
-- :material-gamepad-variant-outline: [__Nintendo/Gaming__](work/category/nintendo)<br>
-WIP
-- :fontawesome-solid-globe: [__Web stuff__](work/category/web)<br>
-Tinkering with websites and other things
+- :material-gamepad-variant: [__Projects/Blog__](work/)<br>
+My Projects<br>
+Tinkering with random stuff
 - :fontawesome-solid-binoculars: [__Random__](random.md)<br>
-WIP
+List of stuff i've found useful online, hopefully it can help others! :material-robot-happy-outline:
+- :octicons-feed-person-16: [__About__](about.mkd)<br>
+About me!
 </div>
