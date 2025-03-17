@@ -1,0 +1,20 @@
+.md-typeset h1{
+  margin: 0px 0px 20px 0px;
+}
+
+.md-main__inner {
+  margin-top: 5px;
+}
+
+.md-header__topic::after {
+  content: "|";
+  position: static;
+  animation: cursor-blink 1.5s steps(2) infinite;
+  font-size: 1.7rem;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
