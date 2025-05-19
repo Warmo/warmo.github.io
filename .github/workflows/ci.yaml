@@ -11,13 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
-        run:
+        run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      # git-revision-date setting below
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -25,7 +24,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          path: .cache 
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
