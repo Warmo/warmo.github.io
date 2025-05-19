@@ -34,6 +34,7 @@ plugins:
         post_readtime: false
     - search
     - open-in-new-tab
+    - git-revision-date-localized
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols

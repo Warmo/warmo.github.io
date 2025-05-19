@@ -11,9 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
-        run: |
+        run:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      # git-revision-date setting below
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -27,7 +31,7 @@ jobs:
       - run: pip install mkdocs-material 
       - run: pip install pillow cairosvg
 #      - run: pip3 install mkdocs-git-latest-changes-plugin
-#      - run: pip3 install mkdocs-git-revision-date-localized-plugin
+      - run: pip3 install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-open-in-new-tab
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install "mkdocs-material[imaging]"
