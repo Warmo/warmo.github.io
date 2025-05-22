@@ -7,14 +7,67 @@
 }
 
 .md-header__topic::after {
-  content: "|";
-  position: static;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 1.4em; /* Adjust this value */
+  margin-top: 0.6rem;
+  margin-left: 0.2rem;
+  background-color: currentColor;
   animation: cursor-blink 1.5s steps(2) infinite;
-  font-size: 1.7rem;
+  vertical-align: text-bottom; /* Aligns cursor with text */
 }
 
 @keyframes cursor-blink {
   0% {
     opacity: 0;
   }
+}
+
+:root {
+  --md-footer-bg-color: #1a1c23;
+  --md-footer-fg-color: #999faa;
+}
+
+/* Links */
+.md-typeset a {
+  color: #ef5552;
+}
+
+/* Header Navigation */
+.md-header {
+  background-color: #1e2129;
+}
+
+/* Titles */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: #ef5552;
+}
+.md-typeset a:hover {
+  color: #82c1ff;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'Web437 IBM VGA';
+  src: url('assets/fonts/Web437_IBM_VGA_8x16.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply the font globally */
+body {
+  font-family: 'Web437 IBM VGA', monospace, monospace;
+}
+
+/* Optional: headers use the same font */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: 'Web437 IBM VGA', monospace, monospace;
+  line-height: 1.1;
+}
+
+body {
+  font-family: 'Web437 IBM VGA', monospace;
+  letter-spacing: -0.05em;  /* tweak this value */
 }
