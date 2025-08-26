@@ -71,3 +71,9 @@ body {
   font-family: 'Web437 IBM VGA', monospace;
   letter-spacing: -0.05em;  /* tweak this value */
 }
+
+/* Navigation foreground color */
+.md-nav {
+  --md-primary-fg-color: #484848;
+  --md-primary-fg-color--dark: #646464;
+}
