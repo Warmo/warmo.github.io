@@ -48,32 +48,16 @@
   text-decoration: underline;
 }
 
-@font-face {
-  font-family: 'Web437 IBM VGA';
-  src: url('assets/fonts/Web437_IBM_VGA_8x16.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Apply the font globally */
-body {
-  font-family: 'Web437 IBM VGA', monospace, monospace;
-}
-
-/* Optional: headers use the same font */
-.md-typeset h1, .md-typeset h2, .md-typeset h3 {
-  font-family: 'Web437 IBM VGA', monospace, monospace;
-  line-height: 1.1;
-}
-
-body {
-  font-family: 'Web437 IBM VGA', monospace;
-  letter-spacing: -0.05em;  /* tweak this value */
-}
-
 /* Navigation foreground color */
-.md-nav {
+:root {
   --md-primary-fg-color: #484848;
   --md-primary-fg-color--dark: #646464;
+}
+
+/* Add padding to main content area */
+.md-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
