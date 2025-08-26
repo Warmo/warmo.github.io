@@ -17,7 +17,7 @@ I made it nice and simple, only using 3 files:
 
 I've never made a "responsive" site so I used this as a test so it can work on any device and keeping the text aligned centered and in the centre of the screen. To increase speed, I also saved the font file to the same place, instead of it dowloading from google's system (This also fixed a issue of the text changing during load)
 
-![Preview](/images/comingsoon.png){ width="90%" }
+![Preview](images/comingsoon.png){ width="90%" }
 /// caption
 [Example Here](https://warmolabs.tf/coming-soon-template/)
 ///

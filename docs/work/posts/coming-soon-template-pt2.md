@@ -27,7 +27,7 @@ Also adding the positioning/sizing in the css file, including colour codes for t
 }
 ```
 
-![Preview](/images/return.png){ width="90%" }
+![Preview](images/return.png){ width="90%" }
 /// caption
 [Example Here](https://warmolabs.tf/coming-soon-template/)
 ///

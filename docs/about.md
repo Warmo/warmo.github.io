@@ -8,7 +8,7 @@ hide:
 # About
 
 <figure markdown="span">
-  ![](/images/hello.webp){ width="95%" }
+  ![](images/hello.webp){ width="95%" }
   <figcaption></figcaption>
 </figure>
 

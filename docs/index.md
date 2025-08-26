@@ -16,7 +16,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :material-gamepad-variant: [__Projects/Blog__](work/)<br>
+- :material-gamepad-variant: [__Projects/Blog__](work/index.md)<br>
 My Projects<br>
 Tinkering with random stuff
 - :fontawesome-solid-binoculars: [__Random__](random.md)<br>

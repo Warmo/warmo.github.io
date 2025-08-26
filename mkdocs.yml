@@ -7,7 +7,7 @@ theme:
     language: en
     palette:
         scheme: slate
-        primary: red
+        primary: custom
         accent: orange
     features:
         navigation.instant
@@ -20,11 +20,11 @@ theme:
     logo: images/icons/maze-cornea.png
     favicon: images/icons/maze-cornea-t.png
     font:
-        text: IBM Plex Sans
+        text: Quantico
 plugins:
     - social:
         cards_layout_options:
-            font_family: IBM Plex Sans
+            font_family: Quantico
     - awesome-pages
     - blog:
         categories: true
