@@ -56,8 +56,8 @@ markdown_extensions:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 copyright: |
-    &copy; 2025 <a href="https://github.com/MrWarmo"  target="_blank" rel="noopener">Jake W</a>
-repo_url: https://github.com/MrWarmo/mrwarmo.github.io
+    &copy; 2025 <a href="https://github.com/Warmo"  target="_blank" rel="noopener">Jake W</a>
+repo_url: https://github.com/Warmo/My-Site
 extra_css:
     - stylesheets/extra.css
 extra:
