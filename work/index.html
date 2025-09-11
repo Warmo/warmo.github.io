@@ -479,7 +479,13 @@
 <p>I help admin a group of sites for a local charity, and for some stupid reason, the web host charges for SSL certificates.</p>
 <p>Anywho, redirecting the nameservers from the website to let cloudflare do its thing (and use its functons) gives it a free SSL certificate, but, I had one more issue, github pages.</p>
 <p>Using the documentation that I found a little hard to understand and some other research, I ended up on using these 4 DNS record edits:</p>
+<figure>
 <p><img alt="Preview" src="images/cloudflare.jpg" width="90%" /></p>
+<figcaption>
+<p>Using the A records from the github pages documentation
+<br>Also, making sure theres a www set in CNAME too</p>
+</figcaption>
+</figure>
 <p>I'm still not sure how it works but still, plus disabling the proxy feature for the records I think were a important part of the whole thing, but no idea.</p>
 <p>But most importantly, this also enables the SSL feature that github uses too. And with the Cloudflare SSL settings left on auto (which scans the domain to make sure its ok) has managed to get it all to work, finally!</p>
 <div class="admonition note">
