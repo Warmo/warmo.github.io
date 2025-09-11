@@ -2,6 +2,7 @@
 draft: false
 date: 
     created: 2025-09-08
+    updated: 2025-09-11
 title: Cloudflare Nonsense
 categories:
     - Web
@@ -14,7 +15,10 @@ Anywho, redirecting the nameservers from the website to let cloudflare do its th
 Using the documentation that I found a little hard to understand and some other research, I ended up on using these 4 DNS record edits:
 
 ![Preview](images/cloudflare.jpg){ width="90%" }
-
+///caption
+Using the A records from the github pages documentation
+<br>Also, making sure theres a www set in CNAME too
+///
 I'm still not sure how it works but still, plus disabling the proxy feature for the records I think were a important part of the whole thing, but no idea.
 
 But most importantly, this also enables the SSL feature that github uses too. And with the Cloudflare SSL settings left on auto (which scans the domain to make sure its ok) has managed to get it all to work, finally!

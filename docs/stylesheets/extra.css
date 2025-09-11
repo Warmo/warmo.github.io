@@ -44,7 +44,7 @@
   color: #ef5552;
 }
 .md-typeset a:hover {
-  color: #82c1ff;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -60,4 +60,15 @@
   padding-right: 10px;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+/* Change only the links inside metadata items */
+.md-meta__item a {
+  color: #ef5552 !important; /* Your preferred color */
+}
+
+/* Optional: change hover color too */
+.md-meta__item a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
 }
