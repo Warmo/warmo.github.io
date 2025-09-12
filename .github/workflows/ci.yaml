@@ -17,6 +17,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
            fetch-depth: 0
+           sparse-checkout: |
+            docs
+            includes
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -24,7 +27,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache 
+          path: ~/.cache
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
