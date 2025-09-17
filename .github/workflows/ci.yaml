@@ -34,6 +34,7 @@ jobs:
 #      - run: pip3 install mkdocs-git-latest-changes-plugin
       - run: pip3 install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-open-in-new-tab
+      - run: pip install mkdocs-rss-plugin
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install "mkdocs-material[imaging]"
 #      - run: pip install mkdocs-nav-weight

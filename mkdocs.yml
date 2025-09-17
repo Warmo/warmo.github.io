@@ -34,6 +34,17 @@ plugins:
         post_readtime: false
     - search
     - open-in-new-tab
+    - rss:
+        match_path: "work/posts/.*"
+        date_from_meta:
+            as_creation: date.created
+            as_update: date.updated
+        feeds_filenames:
+            json_created: feed.json
+            json_updated: feed-updated.json
+            rss_created: rss.xml
+            rss_updated: rss-updated.xml
+        abstract_chars_count: -1
     - git-revision-date-localized:
         exclude:
         - work/*
@@ -68,6 +79,9 @@ extra:
   analytics:
     provider: google
     property: G-PPVP3M5SH8
-#  social:
+  social:
 #    - icon: fontawesome/brands/bluesky
 #      link: https://bsky.app/profile/warmo.bsky.social
+    - icon: fontawesome/solid/rss
+      link: rss.xml
+      name: RSS Feed
