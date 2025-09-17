@@ -6,4 +6,4 @@ hide:
 ---
 # Project Index
 
-[:fontawesome-solid-rss: Subscribe via RSS](/rss.xml)
+[:fontawesome-solid-rss: Subscribe via RSS](/feed_rss_created.xml)
