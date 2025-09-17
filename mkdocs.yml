@@ -83,5 +83,5 @@ extra:
 #    - icon: fontawesome/brands/bluesky
 #      link: https://bsky.app/profile/warmo.bsky.social
     - icon: fontawesome/solid/rss
-      link: rss.xml
+      link: /rss.xml
       name: RSS Feed
