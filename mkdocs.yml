@@ -80,5 +80,3 @@ extra:
     - icon: fontawesome/solid/rss
       link: http://warmolabs.tf/feed_rss_created.xml
       name: RSS Feed
-extra_javascript:
-  - /music.js
