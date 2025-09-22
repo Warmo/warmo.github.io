@@ -7,6 +7,12 @@ hide:
 ---
 # Random
 
-### Just random stuff i've found, incase other people find it useful ^^
+Just random stuff i've found during my ventures on the internet
 
-Text Here
+Hopefully you will find these useful too!
+
+### Mii Generator
+
+[https://mii-unsecure.ariankordi.net/](https://mii-unsecure.ariankordi.net/)
+
+The site I use to generate Mii's for my avatar images
