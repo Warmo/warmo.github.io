@@ -31,7 +31,7 @@
 
 /* Links */
 .md-typeset a {
-  color: #ef5552;
+  color: #1ABC9C;
 }
 
 /* Header Navigation */
@@ -41,7 +41,7 @@
 
 /* Titles */
 .md-typeset h1, .md-typeset h2, .md-typeset h3 {
-  color: #ef5552;
+  color: #E0E1E6;
 }
 .md-typeset a:hover {
   color: #ffffff;
