@@ -40,6 +40,7 @@ plugins:
             as_creation: date.created
             as_update: date.updated
         abstract_chars_count: -1
+        image: images/icons/maze-cornea.png
     - git-revision-date-localized:
         exclude:
         - work/*
