@@ -76,8 +76,9 @@ extra:
     provider: google
     property: G-PPVP3M5SH8
   social:
-#    - icon: fontawesome/brands/bluesky
-#      link: https://bsky.app/profile/warmo.bsky.social
+    - icon: fontawesome/brands/mastodon
+      link: https://universeodon.com/@Warmo
+      name: Mastodon
     - icon: fontawesome/solid/rss
       link: http://warmolabs.tf/feed_rss_created.xml
       name: RSS Feed
