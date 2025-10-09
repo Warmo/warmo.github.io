@@ -6,7 +6,6 @@ date:
 title: Cloudflare Nonsense
 categories:
     - Web
-image: "images/cloudflare.jpg"
 ---
 
 I help admin a group of sites for a local charity, and for some stupid reason, the web host charges for SSL certificates.

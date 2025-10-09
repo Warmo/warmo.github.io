@@ -5,7 +5,7 @@ hide:
   - navigation
   - toc
 ---
-![Mii](images/kirby.gif){ align=right}
+<img src="/images/dedede.gif" alt="Flipped image" style="transform: scaleX(-1); float: right; max-width: none; width: 165px;">
 # Random
 Just random stuff i've found during my ventures on the internet
 
