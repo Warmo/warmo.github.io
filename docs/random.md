@@ -22,3 +22,4 @@ The site I use to generate Mii's for my avatar images
 [https://re-nata.neocities.org/code](https://re-nata.neocities.org/code)
 
 A nifty neocities site that has tons of resources for websites
+
