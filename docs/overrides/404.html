@@ -6,10 +6,30 @@
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.RufflePlayer.config = {
-        "autoplay": "on",
-
+        autoplay: "on"
     };
 </script>
-<div class="flasher" align="center"><embed src="\404\gnomeparty.swf"></div>
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<div class="flasher" align="center" id="flash-container"></div>
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // Create a Ruffle player instance
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+
+    // Add it to your container
+    document.getElementById("flash-container").appendChild(player);
+
+    // Load your SWF file
+    player.load("\\404\\gnomeparty.swf");
+
+    // Wait a bit for player initialization, then set volume
+    // Volume is a value between 0.0 (mute) and 1.0 (max)
+    player.addEventListener("loadedmetadata", () => {
+        player.volume = 0.5; // 🔈 50% volume
+    });
+});
+</script>
 {% endblock %}
