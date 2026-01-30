@@ -7,8 +7,8 @@ theme:
     language: en
     palette:
         scheme: slate
-        primary: deep orange
-        accent: red
+        primary: indigo
+        accent: blue
     features:
         navigation.instant
         navigation.tracking
