@@ -9,7 +9,7 @@ categories:
 I've finished the extra pieces I wanted to add to this little project, including a extra block; <br>
 
 ``` html linenums="1"
-<extra>Return to <a href="http://warmolabs.tf">warmolabs.tf</a></extra>
+<extra>Return to <a href="http://warmo.dev">warmo.dev</a></extra>
 ```
 
 Also adding the positioning/sizing in the css file, including colour codes for the website links<br>
@@ -29,5 +29,5 @@ Also adding the positioning/sizing in the css file, including colour codes for t
 
 ![Preview](images/return.png){ width="90%" }
 /// caption
-[Example Here](https://warmolabs.tf/coming-soon-template/)
+[Example Here](https://warmo.dev/coming-soon-template/)
 ///

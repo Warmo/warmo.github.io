@@ -19,7 +19,7 @@ I've never made a "responsive" site so I used this as a test so it can work on a
 
 ![Preview](images/comingsoon.png){ width="90%" }
 /// caption
-[Example Here](https://warmolabs.tf/coming-soon-template/)
+[Example Here](https://warmo.dev/coming-soon-template/)
 ///
 <br>
 [Github Repo Link](https://github.com/MrWarmo/coming-soon-template) Including template download

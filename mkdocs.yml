@@ -80,5 +80,5 @@ extra:
       link: https://universeodon.com/@Warmo
       name: Mastodon
     - icon: fontawesome/solid/rss
-      link: http://warmolabs.tf/feed_rss_created.xml
+      link: http://warmo.dev/feed_rss_created.xml
       name: RSS Feed
