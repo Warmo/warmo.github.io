@@ -3,6 +3,7 @@ site_url: https://warmo.dev
 site_description: All of my random projects!
 theme:
     name: material
+    variant: classic
     custom_dir: docs/overrides
     language: en
     palette:
@@ -80,5 +81,5 @@ extra:
       link: https://universeodon.com/@Warmo
       name: Mastodon
     - icon: fontawesome/solid/rss
-      link: https://warmo.dev/feed_rss_created.xml
+      link: /feed_rss_created.xml
       name: RSS Feed
