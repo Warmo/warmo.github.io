@@ -42,11 +42,11 @@ plugins:
             as_update: date.updated
         abstract_chars_count: -1
         image: /images/icons/maze-cornea.png
-    - document-dates:
-        position: top
-        type: date    
-        exclude:
-            - work/*
+#    - document-dates:
+#        position: top
+#        type: date    
+#        exclude:
+#            - work/*
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
@@ -70,7 +70,7 @@ markdown_extensions:
             emoji_index: !!python/name:zensical.extensions.emoji.twemoji
             emoji_generator: !!python/name:zensical.extensions.emoji.to_svg
 copyright: |
-    &copy; 2025 <a href="https://github.com/Warmo"  target="_blank" rel="noopener">Jake W</a>
+    &copy; 2026 <a href="https://github.com/Warmo"  target="_blank" rel="noopener">Jake W</a>
 repo_url: https://github.com/Warmo/warmo.github.io
 extra_css:
     - /stylesheets/extra.css

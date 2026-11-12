@@ -20,7 +20,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install zensical
-      - run: pip install mkdocs-document-dates
       - run: zensical build --clean 
       - uses: actions/upload-pages-artifact@v5
         with:
