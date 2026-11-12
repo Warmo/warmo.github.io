@@ -4,7 +4,7 @@ site_description: All of my random projects!
 theme:
     name: material
     variant: classic
-    custom_dir: docs\overrides
+    custom_dir: overrides
     language: en
     palette:
         scheme: slate
