@@ -1,5 +1,5 @@
 # Blog/Website
 
-Created using MKDocs + Material Theme
+Created using Zensical!
 
-https://warmolabs.tf
+https://warmo.dev
