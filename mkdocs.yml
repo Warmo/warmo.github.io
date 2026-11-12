@@ -4,20 +4,20 @@ site_description: All of my random projects!
 theme:
     name: material
     variant: classic
-    custom_dir: docs/overrides
+    custom_dir: docs\overrides
     language: en
     palette:
         scheme: slate
         primary: indigo
         accent: blue
     features:
-        navigation.instant
-        navigation.tracking
-        navigation.sections
-        navigation.tabs
-        navigation.tabs.sticky
-        toc.integrate
-        search.highlight
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.instant
+        - navigation.tracking
+        - navigation.sections
+        - toc.integrate
+        - search.highlight
     logo: /images/icons/maze-cornea.png
     favicon: /images/icons/maze-cornea-t.png
     font:
@@ -26,7 +26,7 @@ plugins:
     - social:
         cards_layout_options:
             font_family: Quantico
-    - awesome-pages
+    - awesome-nav
     - blog:
         categories: true
         blog_dir: work
@@ -42,9 +42,11 @@ plugins:
             as_update: date.updated
         abstract_chars_count: -1
         image: /images/icons/maze-cornea.png
-    - git-revision-date-localized:
+    - document-dates:
+        position: top
+        type: date    
         exclude:
-        - work/*
+            - work/*
 markdown_extensions:
 #    - pymdownx.keys
 #    - pymdownx.smartsymbols
@@ -65,8 +67,8 @@ markdown_extensions:
     - md_in_html
     - tables
     - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+            emoji_index: !!python/name:zensical.extensions.emoji.twemoji
+            emoji_generator: !!python/name:zensical.extensions.emoji.to_svg
 copyright: |
     &copy; 2025 <a href="https://github.com/Warmo"  target="_blank" rel="noopener">Jake W</a>
 repo_url: https://github.com/Warmo/warmo.github.io
@@ -77,9 +79,6 @@ extra:
     provider: google
     property: G-PPVP3M5SH8
   social:
-    - icon: fontawesome/brands/mastodon
-      link: https://universeodon.com/@Warmo
-      name: Mastodon
     - icon: fontawesome/solid/rss
       link: /feed_rss_created.xml
       name: RSS Feed

@@ -1,6 +1,0 @@
-nav:
-    - Home: index.md
-    - Projects:
-        work/
-    - random.md
-    - about.md
